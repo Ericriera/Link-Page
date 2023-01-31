@@ -1,0 +1,116 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#121212 0%, #222 90%);
+    background-color: #121212;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+header {
+    padding-top: 2rem;
+}
+
+header img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 100%;
+    width: 150px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+section {
+    padding: 0.5rem 0 2rem;
+    min-height: 70vh;
+}
+
+button {
+    display: block;
+    margin: 0.5rem auto;
+    width: min(500px, 90%);
+    height: 50px;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#instagram {
+    background-color: royalblue;
+}
+
+#instagram:hover {
+    color: royalblue;
+    background-color: white;
+}
+
+#twitter {
+    background-color: #1DA1F2;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+    background-color: white;
+}
+
+#tiktok {
+    background-color: #010101;
+}
+
+#tiktok:hover {
+    color: #010101;
+    background-color: white;
+}
+
+#spotify {
+    background-color: #1DB954;
+}
+
+#spotify:hover {
+    color: #1DB954;
+    background-color: white;
+}
+
+#linkedin {
+    background-color: #0077B5;
+}
+
+#linkedin:hover {
+    color: #0077B5;
+    background-color: white;
+}
+
+#github {
+    background-color: #010409;
+}
+
+#github:hover {
+    color: #010409;
+    background-color: white;
+}
+
+#portfolio {
+    background-color: cornflowerblue;
+}
+
+#portfolio:hover {
+    color: cornflowerblue;
+    background-color: white;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 5px 10px;
+}
