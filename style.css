@@ -33,7 +33,7 @@ section {
     min-height: 70vh;
 }
 
-button {
+a {
     display: block;
     margin: 0.5rem auto;
     width: min(500px, 90%);
@@ -43,7 +43,9 @@ button {
     font-size: 20px;
     color: white;
     transition: all 0.3s ease;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
 }
 
 #instagram {
