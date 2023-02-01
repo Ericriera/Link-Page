@@ -10,6 +10,7 @@ body {
     background-color: #121212;
     color: white;
     transition: all 0.5s ease;
+    overflow: overlay;
 }
 
 header {
@@ -115,4 +116,18 @@ footer {
     background-color: #222;
     text-align: center;
     padding: 5px 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: cornflowerblue;
+    border-radius: 10px;
 }
