@@ -1,133 +1,142 @@
 html {
-    font-family: 'Roboto Mono', monospace;
-    scroll-behavior: smooth;
-    min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  scroll-behavior: smooth;
+  min-height: 100vh;
 }
 
 body {
-    margin: 0;
-    background: linear-gradient(#121212 0%, #222 90%);
-    background-color: #121212;
-    color: white;
-    transition: all 0.5s ease;
-    overflow: overlay;
+  margin: 0;
+  background: linear-gradient(#121212 0%, #222 90%);
+  background-color: #121212;
+  color: white;
+  transition: all 0.5s ease;
+  overflow: overlay;
 }
 
 header {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 header img {
-    display: block;
-    margin: 1rem auto;
-    border-radius: 100%;
-    width: 150px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 100%;
+  width: 150px;
 }
 
 h1 {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 section {
-    padding: 0.5rem 0 2rem;
-    min-height: 70vh;
+  padding: 0.5rem 0 2rem;
+  min-height: 65vh;
 }
 
 a {
-    display: block;
-    margin: 0.5rem auto;
-    width: min(500px, 90%);
-    height: 50px;
-    border-radius: 0.5rem;
-    border-style: none;
-    font-size: 20px;
-    color: white;
-    transition: all 0.3s ease;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
+  display: block;
+  margin: 0.5rem auto;
+  width: min(500px, 90%);
+  height: 50px;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
 }
 
 #instagram {
-    background-color: royalblue;
+  background-color: royalblue;
 }
 
 #instagram:hover {
-    color: royalblue;
-    background-color: white;
+  color: royalblue;
+  background-color: white;
 }
 
 #twitter {
-    background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 #twitter:hover {
-    color: #1DA1F2;
-    background-color: white;
+  color: #1da1f2;
+  background-color: white;
 }
 
 #tiktok {
-    background-color: #010101;
+  background-color: #010101;
 }
 
 #tiktok:hover {
-    color: #010101;
-    background-color: white;
+  color: #010101;
+  background-color: white;
 }
 
 #spotify {
-    background-color: #1DB954;
+  background-color: #1db954;
 }
 
 #spotify:hover {
-    color: #1DB954;
-    background-color: white;
+  color: #1db954;
+  background-color: white;
+}
+
+#threads {
+  background-color: black;
+}
+
+#threads:hover {
+  color: black;
+  background-color: white;
 }
 
 #linkedin {
-    background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 #linkedin:hover {
-    color: #0077B5;
-    background-color: white;
+  color: #0077b5;
+  background-color: white;
 }
 
 #github {
-    background-color: #010409;
+  background-color: #010409;
 }
 
 #github:hover {
-    color: #010409;
-    background-color: white;
+  color: #010409;
+  background-color: white;
 }
 
 #portfolio {
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 
 #portfolio:hover {
-    color: cornflowerblue;
-    background-color: white;
+  color: cornflowerblue;
+  background-color: white;
 }
 
 footer {
-    background-color: #222;
-    text-align: center;
-    padding: 5px 10px;
+  background-color: #222;
+  text-align: center;
+  padding: 5px 10px;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    background: transparent;
+  width: 5px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: cornflowerblue;
-    border-radius: 10px;
+  background: cornflowerblue;
+  border-radius: 10px;
 }
