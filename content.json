@@ -1,0 +1,43 @@
+{
+  "name": "Eric Riera",
+  "avatar": "img/fotoperfil.jpg",
+  "avatarAlt": "Foto de Eric Riera",
+  "footer": "Made with 💻 and ❤️ by Eric",
+  "links": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/ericriiera",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/ericriera",
+      "icon": "fa-brands fa-twitter"
+    },
+    {
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@ericriiera",
+      "icon": "fa-brands fa-tiktok"
+    },
+    {
+      "label": "Spotify",
+      "url": "https://open.spotify.com/user/ericrp15",
+      "icon": "fa-brands fa-spotify"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ericriera",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Ericriera",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "label": "Portfolio",
+      "url": "https://ericriera.dev/",
+      "icon": "fa-solid fa-globe"
+    }
+  ]
+}

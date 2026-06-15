@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eric Riera</title>
-    <link rel="icon" type="img/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,77 +19,20 @@
       src="https://kit.fontawesome.com/c39dbe24ca.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
-      <img src="img/fotoperfil.jpg" />
-      <h1>Eric Riera</h1>
+      <img id="profile-image" src="img/fotoperfil.jpg" alt="Foto de Eric Riera" />
+      <h1 id="profile-name">Eric Riera</h1>
     </header>
-    <section>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="https://www.instagram.com/ericriiera"
-          target="_blank"
-          ><i class="fa-brands fa-instagram"></i> Instagram</a
-        >
-      </div>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="https://twitter.com/ericriera"
-          target="_blank"
-          ><i class="fa-brands fa-twitter"></i> Twitter</a
-        >
-      </div>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="http://www.tiktok.com/@ericriiera"
-          target="_blank"
-          ><i class="fa-brands fa-tiktok"></i> TikTok</a
-        >
-      </div>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="https://open.spotify.com/user/ericrp15"
-          target="_blank"
-          ><i class="fa-brands fa-spotify"></i> Spotify</a
-        >
-      </div>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="https://www.threads.net/@ericriiera"
-          target="_blank"
-          ><i class="fa-brands fa-threads"></i> Threads</a
-        >
-      </div>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="https://www.linkedin.com/in/eric-riera-puertas"
-          target="_blank"
-          ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
-        >
-      </div>
-      <div class="button">
-        <a class="buttonTop" href="https://github.com/Ericriera" target="_blank"
-          ><i class="fa-brands fa-github"></i> GitHub</a
-        >
-      </div>
-      <div class="button">
-        <a
-          class="buttonTop"
-          href="https://ericriera.netlify.app/"
-          target="_blank"
-          ><i class="fa-solid fa-globe"></i> Portfolio</a
-        >
-      </div>
-    </section>
+
+    <main>
+      <section id="links" aria-label="Links personales"></section>
+    </main>
+
     <footer>
-      <p>&copy Copyright 2024 | Made with 💻 and ❤️ by Eric</p>
+      <p id="footer-text"></p>
     </footer>
   </body>
 </html>
